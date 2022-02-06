@@ -11,6 +11,7 @@ body {
 }
 
 .wrapper {
+max-width: 1000px;
     width: 1100px;
     margin: auto;
     position: relative;
@@ -245,7 +246,7 @@ h3 {
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
-        width: 90%;
+        width: 82%;
     }
 
     .logo a {
