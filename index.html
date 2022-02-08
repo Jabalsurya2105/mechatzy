@@ -100,7 +100,7 @@
             </div>
             <div class="card-section" id="contact">
                 <div class="card-content">
-                    <div class="card-subtitle">KONTAK</div>
+                    <div class="card-subtitle">GROUP</div>
                     <div class="card-contact-wrapper">
                         <div class="card-contact">
                         <a href="https://maps.google.com/?q=Jepara%2C+Kec.+Jepara%2C+Kabupaten+Jepara%2C+Jawa+Tengah&ftid=0x2e7118d34b9ae3ab:0x9d3067f98797ae0f">
@@ -108,26 +108,27 @@
 								 Jepara, Jawa Tengah
 					      </a>
                         </div>
-                         <div class="card-contact">
-                           <a href="https://wa.me/62895415497664">
-                            <i class="fa fa-whatsapp"></i>Contact (Surya)
+                   <div class="card-contact">
+                        <a href="https://chat.whatsapp.com/GnMQRhl8vhcBv7nGcSoJsV">
+                         <i class="fa fa-whatsapp"></i>Group (ᴀɴɪᴍᴇʟᴏᴠᴇʀs🎌)
+                         </a>
+                          </div>
+                          <div class="card-contact">
+                           <a href="https://chat.whatsapp.com/Ix3uoQTEeSZLCV3ybNkDqC">
+                            <i class="fa fa-whatsapp"></i>Group (ᴀɴɪᴍᴇʟᴏᴠᴇʀs🎌²)
                             </a>
                             </div>
-                        <div class="card-contact">
-                           <a href="https://wa.me/62895604080301">
-                            <i class="fa fa-whatsapp"></i>Contact (Mecha Bot)
+                          <div class="card-contact">
+                           <a href="https://chat.whatsapp.com/CBKeTWLBWrD5R44qD4qntP">
+                            <i class="fa fa-whatsapp"></i>Group (ᴀɴɪᴍᴇʟᴏᴠᴇʀs🎌³)
                             </a>
-                        </div>
-                         <div class="card-contact">
-                        <a href="https://instagram.com/surya_skylark05">
-							<i class="fa fa-instagram"></i>Instagram
-			               </a>
-                        </div>
-                      <div class="card-contact">
-                        <a href="https://www.github.com/Jabalsurya2105">
-							<i class="fa fa-github"></i>Github
-			               </a>
-                        </div>
+                            </div>
+                       <div class="card-contact">
+                           <a href="https://chat.whatsapp.com/CO0BFHOsxx5IKslKeRS0Hi">
+                            <i class="fa fa-whatsapp"></i>Group (ᴀɴɪᴍᴇʟᴏᴠᴇʀs🎌⁴)
+                            </a>
+                            </div>      
+                      
                         
                     </div>
                 </div>
@@ -135,7 +136,7 @@
             <div class="card-buttons">
                 <button data-section="#about" class="is-active">ABOUT SURYA</button>
                 <button data-section="#experience">JOURNEY</button>
-                <button data-section="#contact">CONTACT</button>
+                <button data-section="#contact">GROUP</button>
             </div>
         </div>
 
@@ -167,15 +168,38 @@ Audio('https://e.top4top.io/m_22246yjt01.mp3');audio.play();audio.loop=true;audi
     <nav>
         <div class="wrapper">
             <div class="menu">
-                <ul>
-                    <li><a href="#home" class="tbl-biru">About</a></li>
-                    <li><a href="#courses" class="tbl-biru">WhatsApp</a></li>
-                    <li><a href="#partner" class="tbl-biru">Friends</a></li>
-                     <li><a href="https://chat.whatsapp.com/GnMQRhl8vhcBv7nGcSoJsV" class="tbl-biru" target="_blank">Group 1</a></li>
-                     <li><a href="https://chat.whatsapp.com/Ix3uoQTEeSZLCV3ybNkDqC" class="tbl-biru" target="_blank">Group 2</a></li>
-                     <li><a href="https://chat.whatsapp.com/CBKeTWLBWrD5R44qD4qntP" class="tbl-biru" target="_blank">Group 3</a></li>
-                   
-                </ul>
+              <div class="container-fluid" id="container-wrapper">
+            <div id="browser_info"></div>
+            <script>
+              let arrBulan = [
+                "Januari",
+                "Februari",
+                "Maret",
+                "April",
+                "Mei",
+                "Juni",
+                "Juli",
+                "Agustus",
+                "September",
+                "Oktober",
+                "November",
+                "Desember"];
+              let txt = "";
+              let text_el = document.querySelector("div#browser_info");
+              setInterval(() => {
+                var d = new Date();
+                const jam = d.getHours().toString().padStart(2, 0);
+                const menit = d.getMinutes().toString().padStart(2, 0);
+                const detik = d.getSeconds().toString().padStart(2, 0);
+                const tgl = d.getDate();
+                const bln = d.getMonth();
+                const thn = d.getFullYear();
+                const bulan = arrBulan[bln];
+                text_el.innerHTML = 
+                txt+ "<rya>Time : " + jam + ":" + menit + ":" + detik + " ~ " + tgl + " " + bulan + " " + thn + "      </rya>";
+              }, 250);
+            </script>
+            </div>
             </div>
         </div>
     </nav>
@@ -289,7 +313,7 @@ Audio('https://e.top4top.io/m_22246yjt01.mp3');audio.play();audio.loop=true;audi
                 </div>
             </div>
         </section>
-        
+
 <div id="rules">
 <div class="wrapper">
 <b>Deskripsi</b>
