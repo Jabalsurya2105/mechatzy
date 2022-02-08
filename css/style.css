@@ -42,7 +42,7 @@ a {
 }
 
 .card[data-state="#about"] {
-  height: 445px;
+  height: 455px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 80;
@@ -130,7 +130,7 @@ a {
 .card-fullname {
   position: absolute;
   bottom: 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
