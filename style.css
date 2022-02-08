@@ -17,6 +17,13 @@ max-width: 1000px;
     position: relative;
 }
 
+.wrappercopy {
+max-width: 100px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+}
+
 .logo a {
     font-size: 50px;
     font-weight: 800;
